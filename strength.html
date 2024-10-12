@@ -23,13 +23,13 @@
   </head>
   <body>
     <div class="">
-      <!-- Loader Start -
+      <!-- Loader Start -->
       <div class="loader">
-        <div class="spinner">
-          <img src="assets/images/loader.gif" alt="loader" class="img-fluid" />
+        <div class="spinner-border text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
         </div>
       </div>
-      -- Loader End -->
+      <!-- Loader End -->
       <!-- Bottom To Top Start -->
       <div class="cv_top_icon">
         <a id="button">
@@ -81,13 +81,16 @@
                     <a href="index.html">Inicio</a>
                   </li>
                   <li>
-                    <a href="about.html">Sobre mi</a>
+                    <a href="about.html">Sobre mí</a>
                   </li>
                   <li>
                     <a href="portfolio.html">Mis trabajos</a>
                   </li>
                   <li>
                     <a class="active" href="strength.html">Habilidades</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a>
                   </li>
                   <li>
                     <a href="contact.html">¿Hablamos?</a>
@@ -208,20 +211,21 @@
                     </div>
                   </div>
                 </div>
-                <!--<div class="col-sm-6">
+                <div class="col-sm-6">
                   <div class="cv_do_box">
                     <div class="cv_do_icon">
                       <img src="assets/images/do-icon3.svg" />
                     </div>
                     <div class="cv_do_text">
-                      <h4>Logo Design</h4>
+                      <h4>Auditoría web</h4>
                       <p>
-                        Embarrassing hidden in the middle of text. All the Ipsum
-                        generate on the are Internettend.
+                        Realizo auditorías web para optimizar rendimiento,
+                        seguridad y SEO, asegurando que tu sitio alcance sus
+                        objetivos de negocio.
                       </p>
                     </div>
                   </div>
-                </div>-->
+                </div>
               </div>
             </div>
           </div>
@@ -242,7 +246,7 @@
                     <span
                       class="timer"
                       data-from="0"
-                      data-to="3"
+                      data-to="4"
                       data-speed="2000"
                     ></span
                     >+
@@ -260,7 +264,7 @@
                   <h1
                     class="timer"
                     data-from="0"
-                    data-to="3"
+                    data-to="4"
                     data-speed="2000"
                   ></h1>
                   <h4>Proyectos realizados</h4>
@@ -358,7 +362,7 @@
                           <div
                             class="progress-bar"
                             role="progressbar"
-                            style="width: 75%"
+                            style="width: 85%"
                             aria-valuenow="25"
                             aria-valuemin="0"
                             aria-valuemax="100"
@@ -384,6 +388,31 @@
                             class="progress-bar"
                             role="progressbar"
                             style="width: 85%"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="cv_skill_box">
+                    <div class="cv_skill_icon">
+                      <img src="assets/images/icons8-react.svg" />
+                    </div>
+                    <div class="cv_skill_progress">
+                      <div class="cv_skill_text">
+                        <h4>REACT</h4>
+                        <!--<p>85%</p>-->
+                      </div>
+                      <div class="cv_skill_bar">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 25%"
                             aria-valuenow="25"
                             aria-valuemin="0"
                             aria-valuemax="100"
@@ -448,7 +477,7 @@
             <div class="col-xl-4">
               <div class="cv_exp_info">
                 <div class="cv_exp_heading">
-                  <h2>Mis habilidades</h2>
+                  <h2>Tecnologías</h2>
                   <!--<p>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
@@ -461,17 +490,17 @@
         </div>
       </section>
       <!-- Skill Section End -->
-      <!-- Project Section Start -->
+      <!-- Project Section Start --
       <section class="cv_project_wrapper">
         <div class="cv_container container-fluid">
           <div class="row">
             <div class="col-12">
               <div class="cv_sec_heading">
                 <h2>Últimos proyectos</h2>
-                <!--<p>
+                --<p>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   amet sint. Velit officia consequat duis enim velit mollit.
-                </p>-->
+                </p>--
               </div>
             </div>
             <div class="col-12">
@@ -539,44 +568,219 @@
               </div>
             </div>
             <div class="col-12">
-              <!--<div class="cv_bottom_btn">
+              --<div class="cv_bottom_btn">
                 <a href="javascript:void(0)" class="cv_btn">Ver más</a>
-              </div>-->
+              </div>-
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- Project Section End -->
-      <!-- Client Section Start -->
-      <section class="cv_client_wrapper">
-        <div class="cv_container container-fluid">
+      <!---Accordeon of questions and anwers-->
+      <section class="cv_skill_wrapper">
+        <div class="container container-fluid">
           <div class="row align-items-center">
             <div class="col-xl-4">
               <div class="cv_exp_info">
                 <div class="cv_client_heading">
-                  <h2>Mis clientes</h2>
-                  <!--<p>
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.
-                  </p>-->
+                  <h2>Preguntas frecuentes</h2>
                 </div>
               </div>
             </div>
+            <!--<div class="cv_exp_heading p-3 mb-1">
+              <h2></h2>
+            </div>-->
+            <div class="col-xl-8 bg-primay">
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item ">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      <b>¿Cuánto tiempo tomará desarrollar mi página web?</b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      El tiempo de desarrollo depende de la complejidad y las características requeridas para tu sitio. En promedio, un proyecto básico puede tardar entre 2 y 4 semanas, mientras que sitios más complejos pueden requerir entre 6 y 10 semanas.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      <b>¿Cuánto costará el desarrollo de mi página web?</b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      El costo varía según las necesidades específicas de tu proyecto, como el diseño, las funciones, y el contenido. Podemos ofrecerte un presupuesto personalizado después de discutir tus objetivos y requisitos.
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      <b>¿Mi página web será compatible con dispositivos móviles?</b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Sí, todos nuestros diseños son responsivos, lo que significa que tu sitio web se verá y funcionará correctamente en cualquier dispositivo, ya sea un teléfono móvil, una tablet o una computadora de escritorio.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      <b>¿Puedo actualizar el contenido de mi página web por mi cuenta?</b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Sí, desarrollamos nuestras páginas web en plataformas que te permiten gestionar y actualizar el contenido fácilmente sin necesidad de conocimientos técnicos. También ofrecemos capacitación para que puedas hacerlo con confianza.
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingFive">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                      <b>¿Qué tan importante es el SEO y lo incluyen en el desarrollo?</b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      El SEO (Optimización para Motores de Búsqueda) es crucial para que tu página web sea visible en los motores de búsqueda como Google. Incluimos prácticas básicas de SEO durante el desarrollo y ofrecemos servicios adicionales para mejorar tu posicionamiento.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSix">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                      <b>¿Qué tipo de soporte ofrecen después de que la página esté en línea? </b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Ofrecemos diferentes niveles de soporte post-lanzamiento, desde mantenimiento básico hasta actualizaciones periódicas y soporte técnico continuo, para asegurarnos de que tu sitio web funcione de manera óptima.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingSeven">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSeven"
+                    >
+                      <b>¿Pueden integrar funciones específicas, como una tienda en línea o un blog?</b>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSeven"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingSeven"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Sí, podemos integrar diversas funcionalidades según tus necesidades, como tiendas en línea, blogs, sistemas de reservas, formularios de contacto y más. Todo se adapta para que tu página web cumpla con tus objetivos de negocio.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Client Section Start -->
+      <section class="cv_client_wrapper">
+        <div class="cv_container container-fluid">
+          <div class="row align-items-center">
             <div class="col-xl-8">
               <div class="cv_client_info">
                 <div class="cv_client_box">
                   <div class="cv_client_img">
-                    <img src="assets/images/client-1.png" />
+                    <img src="assets/images/client-3.png" width="200px" />
                   </div>
                   <div class="cv_client_img">
                     <img src="assets/images/client-2.png" />
                   </div>
                   <div class="cv_client_img">
-                    <img src="assets/images/client-3.png" />
+                    <img src="assets/images/admissible-blanco-13.png" width="200px" />
                   </div>
                 </div>
-                <div class="cv_client_box">
+                <!--<div class="cv_client_box">
                   <div class="cv_client_img">
                     <img src="assets/images/client-4.png" />
                   </div>
@@ -586,6 +790,18 @@
                   <div class="cv_client_img">
                     <img src="assets/images/client-6.png" />
                   </div>
+                </div>-->
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="cv_exp_info">
+                <div class="cv_client_heading">
+                  <h2>Mis clientes</h2>
+                  <!--<p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>-->
                 </div>
               </div>
             </div>

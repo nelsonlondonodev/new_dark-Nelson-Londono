@@ -23,13 +23,13 @@
   </head>
   <body>
     <div class="cv_main_wrapper">
-      <!-- Loader Start -
+      <!-- Loader Start -->
       <div class="loader">
-        <div class="spinner">
-          <img src="assets/images/loader.gif" alt="loader" class="img-fluid" />
+        <div class="spinner-border text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
         </div>
       </div>
-      -- Loader End -->
+      <!-- Loader End -->
       <!-- Bottom To Top Start -->
       <div class="cv_top_icon">
         <a id="button">
@@ -81,13 +81,16 @@
                     <a href="index.html">Inicio</a>
                   </li>
                   <li>
-                    <a href="about.html">Sobre mi</a>
+                    <a href="about.html">Sobre mí</a>
                   </li>
                   <li>
                     <a href="portfolio.html">Mis trabajos</a>
                   </li>
                   <li>
                     <a href="strength.html">Habilidades</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a>
                   </li>
                   <li>
                     <a class="active" href="contact.html">¿Hablamos?</a>
@@ -159,45 +162,38 @@
                 ></iframe>
               </div>
             </div>-->
-            <div class="col-md-12 col-lg-4 col-xl-4">
+            <div class="col-md-12 col-lg-6 col-xl-4">
               <div class="cv_map_info">
                 <div class="cv_map_heading">
                   <h2>¿Hablamos?</h2>
                   <p>
-                    Hola. ¿Tienes un negocio o una idea y necesitas desarrollar un producto digital? Pues estoy aquí para asesorarte y
-                    encontrar la mejor opción a tu necesidad. Escríbeme al
-                    WhatsApp y me pondré en contacto contigo lo antes
-                    posible.
+                    Hola. ¿Tienes un negocio o una idea y necesitas desarrollar
+                    un producto digital? <br />
+                    Pues estoy aquí para asesorarte y encontrar la mejor opción
+                    a tu necesidad. <br />
+                    Escríbeme al WhatsApp o enviame un Email y me pondré en
+                    contacto contigo lo antes posible.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-md-4">
-              <div class="cv_address_box">
-                <div class="cv_address_icon">
-                  <a href="https://wa.me/34663975428?text=Hola" target="_blank"
-                    >
-                  <img src="assets/images/icons8-whatsapp.svg" />
+            <div class="col-md-6 col-lg-3 col-md-4">
+              <a href="https://wa.me/34663975428?text=Hola" target="_blank">
+                <div class="cv_address_box justify-content-center">
+                  <div class="cv_address_icon">
+                    <img src="assets/images/icons8-whatsapp.svg" />
+                  </div>
                 </div>
-                <div class="cv_address_text">
-                  <h5>Whatsapp</h5>
-                  +34-663-975-428</a
-                  >
-                  <!--<a href="javascript:void(0);">01-202-555-0125</a>-->
-                </div>
-              </div>
+              </a>
             </div>
-            <div class="col-md-6 col-lg-4 col-md-4">
-              <div class="cv_address_box">
-                <div class="cv_address_icon">
-                  <img src="assets/images/icons8-gmail.svg" />
+            <div class="col-md-6 col-lg-3 col-md-4">
+              <a href="mailto:contacto@nelsonlondono.es">
+                <div class="cv_address_box justify-content-center">
+                  <div class="cv_address_icon">
+                    <img src="assets/images/icons8-gmail.svg" />
+                  </div>
                 </div>
-                <div class="cv_address_text">
-                  <h5>Email</h5>
-                  <a href="">contacto@nelsonlondono.es</a>
-                  <!--<a href="javascript:void(0);">yourname@gmail.com</a>-->
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -226,58 +222,70 @@
         </div>
       </section>
       -- Address Section End -->
-      <!-- Form Section Start 
+      <!-- Form Section Start -->
       <section class="cv_form_wrapper">
         <form class="cv_contact_form">
           <div class="cv_container container-fluid">
             <div class="row align-items-center">
-              <div class="col-xl-4">
-                <div class="cv_client_heading">
-                  <h2>Contact Us</h2>
+              <div class="col-xl-3">
+                <!-- <div class="cv_client_heading">
+                  <h2>¿Hablamos?</h2>
+                  --
                   <p>
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.
                   </p>
-                </div>
+                  --
+                </div> -->
               </div>
-              <div class="col-xl-8">
+              <div class="col-xl-6">
                 <div class="row">
                   <div class="col-md-6">
                     <input
+                      id="nombreForm"
                       type="text"
-                      name="name"
-                      placeholder="Your Name"
-                      autocomplete="off"
+                      name="nombre"
+                      value="nombre"
+                      placeholder="Nombre"
+                      autocomplete="on"
                     />
                     <input
+                      id="emailForm"
                       type="email"
                       name="email"
-                      placeholder="Your Email"
-                      autocomplete="off"
+                      placeholder="Email"
+                      autocomplete="on"
                     />
                     <input
+                      id="asuntoForm"
                       type="text"
-                      name="subject"
-                      placeholder="Subject"
+                      name="Asunto"
+                      placeholder="Asunto"
                       autocomplete="off"
                     />
                   </div>
                   <div class="col-md-6">
-                    <textarea placeholder="Message"></textarea>
+                    <textarea id="mensajeForm" placeholder="Mensaje"></textarea>
                   </div>
                 </div>
               </div>
-              <div class="col-12">
+              <div class="col-6">
                 <div class="cv_contact_btn">
-                  <a href="javascript:void(0);" class="cv_btn">Submit</a>
+                  <a
+                    href=""
+                    class="cv_btn"
+                    id="btnForm"
+                    onclick="btnClickForm()"
+                    >Enviar</a
+                  >
                 </div>
               </div>
             </div>
           </div>
         </form>
       </section>
-      -- Form Section End -->
+      <!-- Form Section End -->
       <!-- Footer Section Start -->
       <div class="cv_footer_wrapper">
         <div class="container">

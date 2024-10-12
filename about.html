@@ -23,13 +23,13 @@
   </head>
   <body>
     <div class="cv_main_wrapper">
-      <!-- Loader Start -
+      <!-- Loader Start -->
       <div class="loader">
-        <div class="spinner">
-          <img src="assets/images/loader.gif" alt="loader" class="img-fluid" />
+        <div class="spinner-border text-info" role="status">
+          <span class="visually-hidden">Loading...</span>
         </div>
       </div>
-      -- Loader End -->
+      <!-- Loader End -->
       <!-- Bottom To Top Start -->
       <div class="cv_top_icon">
         <a id="button">
@@ -81,13 +81,16 @@
                     <a href="index.html">Inicio</a>
                   </li>
                   <li>
-                    <a class="active" href="about.html">Sobre mi</a>
+                    <a class="active" href="about.html">Sobre mí</a>
                   </li>
                   <li>
                     <a href="portfolio.html">Mis trabajos</a>
                   </li>
                   <li>
                     <a href="strength.html">Habilidades</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">Blog</a>
                   </li>
                   <li>
                     <a href="contact.html">¿Hablamos?</a>
@@ -166,16 +169,21 @@
                       </span>
                     </div>
                     <div class="cv_about_rating">
-                      <span>
-                        <img src="assets/images/rating.svg" />
-                        <h6>4.9</h6>
-                      </span>
-                      <p>Satisfacción de clientes</p>
+                      <a
+                        href="https://www.google.com/search?q=Desarrollo+web+%7C+Nelson+Londo%C3%B1o+%7C+Madrid+Espa%C3%B1a&stick=H4sIAAAAAAAA_-NgU1I2qLAwSDYwMLFMTEwzSEs0SbMyqEg2TTG3TDQ3Sk0xM080M1rEauiSWpxYVJSfk5OvUJ6apFCj4JeaU5yfp-CTn5eSf3hjPlDENzGlKDNFwbW4IPHwxkQAMRWjflsAAAA&hl=es-419&mat=CSADGid_QJijElcBEKoLaXv8Cw4UtqSQfUUQFSImnZVeFfvxanA8l_R5IVG9wgO8NkHoZIMIH9mA4Oq7xO7EE2Iq7Ugf721jshRVLgdtDLj_R7w0YB5sLpyTl4MAi1h0aqM&authuser=0&ved=2ahUKEwiJ5r3Bu5mIAxVpX_EDHYvBD98Q-MgIegQILxAd#mpd=~11788242939503313696/customers/reviews"
+                        target="_blank"
+                      >
+                        <span>
+                          <img src="assets/images/rating.svg" />
+                          <h6>4.9</h6>
+                        </span>
+                        <p>Satisfacción de clientes</p>
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div class="cv_about_info">
-                  <h2>Sobre mi</h2>
+                  <h2>Sobre mí</h2>
                   <div class="cv_about_box">
                     <h3>Quien soy</h3>
                     <!--<p>
@@ -207,6 +215,7 @@
                       target="_blank"
                       class="cv_btn"
                       >¿Hablamos?<img
+                        class="p-2"
                         src="assets/images/icons8-whatsappSmall.svg"
                     /></a>
                   </div>
@@ -221,7 +230,7 @@
       <section class="cv_education_wrapper">
         <div class="cv_container container-fluid">
           <div class="row align-items-center">
-            <div class="col-xl-4">
+            <div class="col-xl-3">
               <div class="cv_edu_heading">
                 <h2>Formación</h2>
                 <p>
@@ -230,8 +239,9 @@
                   he consolidado mi experiencia en el diseño y desarrollo de
                   páginas web atractivas y funcionales. Mi habilidad para
                   combinar estas tecnologías refleja un profundo conocimiento y
-                  destreza técnica en el campo. Permaneciendo activo en
-                  plataformas educativas como
+                  destreza técnica en el campo.
+                  <!-- Permaneciendo activo en
+                  plataformas educativas como -->
                   <!--<span class="spam-Formacion">
                     Udemy, W3Schools y Platzi, </span
                   >busco constantemente conocimiento para mantenerme al día con
@@ -239,7 +249,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-9">
               <div class="cv_edu_info">
                 <div class="cv_edu_box box-1">
                   <a
@@ -261,10 +271,47 @@
                         Aprendí programación y desarrollo web y back-end para
                         principiantes con JavaScript, CSS, HTML, PHP.
                       </p>
-                    </div></a
-                  >
+                      <div class="img-certificado">
+                        <img
+                          class="mt-3"
+                          src="assets/images/certificado-Udemy.jpg"
+                          alt="certicado.html"
+                          width="250px"
+                        />
+                      </div></div
+                  ></a>
                 </div>
                 <div class="cv_edu_box box-2">
+                  <a
+                    href="https://www.udemy.com/certificate/UC-a3c65539-42e7-4a64-85c8-4db65a839c56/"
+                    target="_blank"
+                  >
+                    <div class="cv_edu_title">
+                      <h4>
+                        JavaScript moderno guía definitiva construye +20
+                        proyectos <br />
+                        <span class="spam-Formacion">Udemy</span>
+                      </h4>
+                      <h2>2024</h2>
+                    </div>
+                    <div class="cv_edu_detail">
+                      <span>- Madrid</span>
+                      <p>
+                        Aprende el Lenguaje de Programación Web más popular paso
+                        a paso con +20 Proyectos - Incluye Proyecto MERN Full
+                        Stack.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        class="mt-5"
+                        src="assets/images/Certifiado JavasCript Udemy.jpg"
+                        alt="certicado.html"
+                        width="250px"
+                      /></div
+                  ></a>
+                </div>
+                <div class="cv_edu_box box-3">
                   <a
                     href="https://www.udemy.com/share/101Wfe3@wMTu5_ibL1Ja9vGI3L5nVoQjJBYW_1WDMZpMyALd7up6rqi3LWB9L08wgPR__5CMBA==/"
                     target="_blank"
@@ -287,36 +334,16 @@
                     </div></a
                   >
                 </div>
-                <div class="cv_edu_box box-3">
-                  <a
-                    href="https://www.udemy.com/share/101Z6U3@_OGtsYDelVh4zpHeBnIk2VCoMJRP7eP4luu__jjSdydvVAmSVWiq7nTaWXKP0e0cAw==/"
-                    target="_blank"
-                  >
-                    <div class="cv_edu_title">
-                      <h4>
-                        JavaScript moderno guía definitiva construye +20
-                        proyectos <br />
-                        <span class="spam-Formacion">Udemy</span>
-                      </h4>
-                      <h2>2024</h2>
-                    </div>
-                    <div class="cv_edu_detail">
-                      <span>- Madrid</span>
-                      <p>
-                        Aprende el Lenguaje de Programación Web más popular paso
-                        a paso con +20 Proyectos - Incluye Proyecto MERN Full
-                        Stack.
-                      </p>
-                    </div></a
-                  >
-                </div>
-                <!--<div class="cv_edu_box box-4">
+                <div class="cv_edu_box box-4">
                   <div class="cv_edu_title">
-                    <h4>Diploma In UI/UX Design</h4>
-                    <h2>2009</h2>
+                    <h4>
+                      Ingles nivel B1 <br />
+                      <span class="spam-Formacion">Education first EF</span>
+                    </h4>
+                    <h2>2022</h2>
                   </div>
                   <div class="cv_edu_detail">
-                    <span>- New York</span>
+                    <span>- Colombia</span>
                     <p>
                       Embarrassing hidden in the middle of text. All the Lorem
                       Ipsum generate on the are Internettend to repeat
@@ -325,7 +352,14 @@
                       Amet minim mollit.
                     </p>
                   </div>
-                </div>-->
+                  <div class="text-center mt-3">
+                    <img
+                      src="assets/images/Certificates B1 .pdf.jpg"
+                      alt="ingles b1"
+                      width="200px"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

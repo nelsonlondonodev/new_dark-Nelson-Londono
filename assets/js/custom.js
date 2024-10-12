@@ -2,6 +2,8 @@
 [Master Javascript]
 Project: Resume html
 -------------------------------------------------------------------*/
+// ================== Variables ==================//
+
 // Evento de clic en las coookies
 document.addEventListener("DOMContentLoaded", function () {
   // Show the cookie message
@@ -53,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     tyipng: function () {
       if ($(".cv_profile_name").length > 0) {
         window.ityped.init(document.querySelector(".cv_profile_name"), {
-          strings: ["Nelson Londoño", "¡ Desarrollador web !", "¡ Front-End !"],
+          strings: ["Nelson Londoño"],
           loop: true,
           typeSpeed: 200,
           backSpeed: 100,
