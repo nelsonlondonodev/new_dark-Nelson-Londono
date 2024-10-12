@@ -5,13 +5,20 @@ Project: Resume html
 // Evento de clic en las coookies
 document.addEventListener("DOMContentLoaded", function () {
   // Show the cookie message
-  const cookieMessage = document.getElementById("cookie-message");
-  cookieMessage.style.display = "block";
+  const botonAceptarCookies = document.getElementById("btn-aceptar-cookies");
+  const avisoCookies = document.getElementById("aviso-cookies");
+  const fondoAvisoCookies = document.getElementById("fondo-aviso-cookies");
 
-  // Hide the cookie message when the user clicks "Accept Cookies"
-  const acceptCookiesButton = document.getElementById("accept-cookies");
-  acceptCookiesButton.addEventListener("click", function () {
-    cookieMessage.style.display = "none";
+  if (!localStorage.getItem("cookies-aceptadas")) {
+    avisoCookies.classList.add("activo");
+    fondoAvisoCookies.classList.add("activo");
+  }
+
+  botonAceptarCookies.addEventListener("click", () => {
+    avisoCookies.classList.remove("activo");
+    fondoAvisoCookies.classList.remove("activo");
+
+    localStorage.setItem("cookies-aceptadas", true);
   });
 });
 
@@ -46,11 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
     tyipng: function () {
       if ($(".cv_profile_name").length > 0) {
         window.ityped.init(document.querySelector(".cv_profile_name"), {
-          strings: [
-            "Nelson Londoño",
-            "¡ Desarrollador web !",
-            "¡ Freelancer !",
-          ],
+          strings: ["Nelson Londoño", "¡ Desarrollador web !", "¡ Front-End !"],
           loop: true,
           typeSpeed: 200,
           backSpeed: 100,
