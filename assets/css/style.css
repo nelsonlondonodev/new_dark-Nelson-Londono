@@ -1852,9 +1852,6 @@ section {
   border: 1px solid var(--cv-transition-color);
 }
 
-.carousel-item img {
-}
-
 .carousel-indicators {
   background-image: linear-gradient(
     90deg,
