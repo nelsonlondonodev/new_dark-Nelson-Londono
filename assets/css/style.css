@@ -405,7 +405,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-primary);
   font-size: 16px;
   font-weight: 300;
   color: var(--cv-white-color);
