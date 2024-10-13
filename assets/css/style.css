@@ -1944,7 +1944,7 @@ section {
   transform: rotate(360deg);
 }
 
-.cv_award_text h1 {
+.cv_award_text h2 {
   color: var(--cv-primary-color);
   font-size: 50px;
   font-weight: 700;
