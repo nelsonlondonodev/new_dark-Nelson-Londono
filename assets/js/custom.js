@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     tyipng: function () {
       if ($(".cv_profile_name").length > 0) {
         window.ityped.init(document.querySelector(".cv_profile_name"), {
-          strings: ["Nelson Londoño"],
+          strings: ["Desarrollador front-end"],
           loop: true,
           typeSpeed: 200,
           backSpeed: 100,
