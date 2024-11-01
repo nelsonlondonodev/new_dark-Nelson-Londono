@@ -929,8 +929,9 @@ section {
 .cv_banner_img .bnr-star {
   position: absolute;
   left: -35px;
-  bottom: 110px;
+  bottom: -5px;
   animation: cv_ud 2.5s infinite alternate;
+  z-index: 1;
 }
 
 .cv_banner_img .bnr-sqr {
@@ -946,11 +947,10 @@ section {
 
 .cv_banner_text h5 {
   display: inline-block;
-  background-color: var(--cv-secoundry-color);
-  border-radius: 51px;
-  font-size: 35px;
+  min-height: 100px;
+  font-size: 45px;
   padding: 8px 25px;
-  margin-bottom: 18px;
+  margin-bottom: 0px;
 }
 
 .cv_banner_text h2 {
@@ -960,10 +960,13 @@ section {
 }
 
 .cv_banner_text h1 {
-  font-size: 60px;
+  background-color: var(--cv-secoundry-color);
+  font-size: 35px;
   font-weight: 700;
   line-height: 1.1;
-  min-height: 77px;
+  min-height: 57px;
+  margin-right: -10;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .cv_banner_text h1 span img {
@@ -1085,8 +1088,12 @@ section {
 
 .cv_about_img {
   position: relative;
-  border: 1px solid var(--cv-transition-color);
-  border-radius: 10px;
+  border: 2px solid var(--cv-transition-color);
+  border-radius: 50%;
+}
+
+.cv_about_img img {
+  border-radius: 50%;
 }
 
 .cv_about_img .cv_about_exp {
