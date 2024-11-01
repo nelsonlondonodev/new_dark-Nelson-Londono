@@ -105,7 +105,9 @@ Max - Width Query
     background-size: contain;
   }
 
-  .cv_banner_text {
+  .cv_banner_text,
+  .cv_banner_text h1 {
+    margin: auto;
     margin-top: 30px;
     text-align: center;
   }
@@ -318,7 +320,9 @@ Max - Width Query
   }
 
   .cv_banner_text h1 {
-    font-size: 40px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 35px;
     min-height: 44px;
   }
 

@@ -557,6 +557,7 @@ section {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  border: 1px solid black;
   transition: var(--cv-transition) opacity 0;
   visibility: hidden;
   z-index: 1000;
@@ -948,7 +949,7 @@ section {
 .cv_banner_text h5 {
   display: inline-block;
   min-height: 100px;
-  font-size: 45px;
+  font-size: 31px;
   padding: 8px 25px;
   margin-bottom: 0px;
 }
@@ -965,8 +966,10 @@ section {
   font-weight: 700;
   line-height: 1.1;
   min-height: 57px;
-  margin-right: -10;
-  border-radius: 10px 0px 0px 10px;
+  margin-right: 100px;
+  margin-left: -110px;
+  border-radius: 10px;
+  z-index: 99;
 }
 
 .cv_banner_text h1 span img {
@@ -1089,11 +1092,11 @@ section {
 .cv_about_img {
   position: relative;
   border: 2px solid var(--cv-transition-color);
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .cv_about_img img {
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .cv_about_img .cv_about_exp {
@@ -1120,7 +1123,7 @@ section {
   padding: 14px 32px;
   max-width: 221px;
   right: -50px;
-  bottom: 87px;
+  bottom: 45px;
   z-index: 1;
   transition: 1ms;
 }
