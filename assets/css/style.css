@@ -1006,7 +1006,7 @@ section {
 }
 
 .cv_banner_text .cv_profile_name {
-  color: #2ee3b8;
+  color: var(--cv-primary-color);
 }
 
 .cv_banner_text a {
