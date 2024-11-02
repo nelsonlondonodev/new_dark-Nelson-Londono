@@ -633,14 +633,14 @@ section {
   color: var(--cv-white-color);
   font-size: 18px;
   font-weight: 500;
-  padding: 0 10px;
+  padding: 0 7px;
   min-height: 45px;
   min-width: 146px;
   width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 30px;
   border: 1px solid transparent;
 }
 
@@ -1648,6 +1648,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cv_port_tab li a:hover {
+  background: var(--cv-primary-color);
 }
 
 .cv_port_tab li a.active {
