@@ -404,6 +404,11 @@ Max - Width Query
     font-size: 36px;
   }
 
+  .cv_about_img {
+    margin: auto;
+    width: 300px;
+  }
+
   .cv_skill_text h4 {
     font-size: 16px;
   }

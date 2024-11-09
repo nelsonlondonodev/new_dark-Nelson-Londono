@@ -1091,8 +1091,7 @@ section {
 
 .cv_about_img {
   position: relative;
-  border: 2px solid var(--cv-transition-color);
-  border-radius: 10px;
+  margin-right: auto;
 }
 
 .cv_about_img img {
@@ -1108,7 +1107,7 @@ section {
   align-items: center;
   max-width: 221px;
   gap: 7px;
-  top: 280px;
+  top: 290px;
   left: -55px;
 }
 
@@ -1169,7 +1168,7 @@ section {
 }
 
 .cv_about_box {
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px 10px 10px 10px;
   background-color: rgb(255 255 255 / 9%);
   border: 1px solid rgb(255 255 255 / 21%);
   backdrop-filter: blur(6px);
@@ -1218,6 +1217,11 @@ section {
 /********************************************************
     Education Section Style
 *******************************************************/
+.logo_formacion_react {
+  width: 150px;
+  margin: auto;
+  margin-bottom: 30px;
+}
 
 .cv_education_wrapper {
   position: relative;
