@@ -1408,6 +1408,11 @@ section {
 /********************************************************
     Experience Section Style
 *******************************************************/
+.logo_experiencía_front {
+  width: 130px;
+  margin: auto;
+  margin-bottom: 30px;
+}
 
 .cv_experience_wrapper {
   background-color: var(--bg-color);
