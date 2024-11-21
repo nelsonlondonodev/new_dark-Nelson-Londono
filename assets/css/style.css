@@ -1214,6 +1214,19 @@ section {
   border: 1px solid var(--cv-primary-color);
 }
 
+.logo-udemy {
+  width: 60px;
+  height: 35px;
+  background-color: var(--cv-transition-color);
+  border: 1px solid var(--cv-transition-color);
+  border-radius: ;
+}
+
+.logo-udemy img {
+  width: 60px;
+  margin: auto;
+}
+
 /********************************************************
     Education Section Style
 *******************************************************/
