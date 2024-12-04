@@ -191,9 +191,7 @@ html {
   }
 }
 
-/*============== end-spinner ===============*/
-
-/*-- Cookies --*/
+/*============== Cookies  ===============*/
 
 .aviso-cookies {
   display: none;
@@ -294,110 +292,6 @@ html {
 .fondo-aviso-cookies.activo {
   display: block;
 }
-
-/*.cookie-message {
-  display: none;
-  background-color: var(--cv-transition-color);
-  color: var(--cv-black-color);
-  font-size: 12px;
-  border: 1px solid rgb(221, 221, 221);
-  padding: 7px;
-  position: fixed;
-  bottom: 10px;
-  left: 20px;
-  right: 20px;
-  z-index: 1000;
-  display: none;
-  text-align: center;
-  box-shadow: hwb(0 98% 1% / 0.06);
-  border-radius: 10px;
-}
-
-.cookie-message .activo {
-  display: block;
-}
-
-.cookie-message p {
-  margin-bottom: 7px;
-}
-
-.btn-aceptar-cookies {
-  background-color: var(--cv-primary-color);
-  margin: 10px;
-  font-size: 10px;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  color: var(--cv-white-color);
-  padding: 13px;
-  transition: 0.5s;
-  border-radius: 10px;
-}
-
-.btn-aceptar-cookies:hover {
-  background-color: var(--bg-color);
-  color: var(--cv-transition-color);
-  border: 1px solid var(--cv-primary-color);
-}
-
-.btn-modificar-cookies {
-  background-color: transparent;
-  margin: 10px;
-  font-size: 10px;
-  font-weight: 700;
-  border: 1px solid var(--cv-primary-color);
-  cursor: pointer;
-  color: var(--cv-primary-color);
-  padding: 13px;
-  transition: 0.5s;
-  border-radius: 10px;
-}
-
-.btn-modificar-cookies:hover {
-  background-color: var(--bg-color);
-  color: var(--cv-transition-color);
-  border: 1px solid var(--cv-primary-color);
-}
-
-.container-políticas {
-  width: 70%;
-  margin: 40px;
-  border: 1px solid black;
-  box-shadow: rgba(0, 0, 0, 0.06);
-}
-
-.a-politicas {
-  text-decoration: none;
-  color: var(--cv-primary-color);
-  font-weight: 500;
-}
-
-.a-politicas:hover {
-  text-decoration: underline;
-  color: var(--cv-black-color);
-}
-
-.fondo-aviso-cookies {
-  display: none;
-  background-color: rgba(0, 0, 0, 0.2);
-  position: fixed;
-  z-index: 99;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-}
-
-.fondo-aviso-cookies .activo {
-  display: block;
-}
-
-.container-políticas h2 {
-  align-items: center;
-  justify-content: center;
-}*/
-
-/*-- End of the Cookies --*/
 
 body {
   background-color: var(--bg-color);
