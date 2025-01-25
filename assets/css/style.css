@@ -1614,6 +1614,11 @@ section {
 /********************************************************
     Portfolio Section Style
 *******************************************************/
+.h2-proyectos {
+  text-align: center;
+  justify-content: center;
+}
+
 .card {
   display: inline;
   column-gap: 20px;
@@ -1649,6 +1654,10 @@ section {
   transform: translateX(-50%);
 }
 
+.figure-caption {
+  color: var(--cv-white-color);
+}
+
 .cv_port_tab {
   display: flex;
   border-radius: 30px;
@@ -1680,7 +1689,13 @@ section {
   background-color: var(--cv-primary-color);
 }
 
+.image-proyects {
+  border: 1px solid var(--cv-primary-color);
+  border-radius: 10px;
+}
+
 .cv_tab_pane {
+  min-height: 500px;
   display: none;
 }
 
