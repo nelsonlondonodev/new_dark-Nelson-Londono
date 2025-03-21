@@ -206,7 +206,7 @@
       </div>
       <!-- Form Section Start -->
       <section class="cv_form_wrapper">
-        <form class="cv_contact_form">
+        <form id="form" class="cv_contact_form">
           <div class="cv_container container-fluid">
             <div class="row align-items-center">
               <div class="col-xl-3"></div>
@@ -217,7 +217,7 @@
                       id="nombreForm"
                       type="text"
                       name="nombre"
-                      value="nombre"
+                      value=""
                       placeholder="Nombre"
                       autocomplete="on"
                     />
@@ -237,19 +237,27 @@
                     />
                   </div>
                   <div class="col-md-6">
-                    <textarea id="mensajeForm" placeholder="Mensaje"></textarea>
+                    <textarea
+                      id="mensajeForm"
+                      type="text"
+                      name="mensaje"
+                      placeholder="Mensaje"
+                    ></textarea>
                   </div>
                 </div>
               </div>
               <div class="col-6">
                 <div class="cv_contact_btn">
-                  <a
-                    href=""
+                  <button class="cv_btn" id="btnForm" type="submit">
+                    Enviar
+                  </button>
+                  <!-- <a
                     class="cv_btn"
                     id="btnForm"
+                    type="submit"
                     onclick="btnClickForm()"
                     >Enviar</a
-                  >
+                  > -->
                 </div>
               </div>
             </div>
@@ -281,6 +289,7 @@
     <script src="assets/js/jquery.countTo.js"></script>
     <script src="assets/js/ityped.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/form.js"></script>
     <!--=== Optional JavaScript ===-->
   </body>
 </html>
