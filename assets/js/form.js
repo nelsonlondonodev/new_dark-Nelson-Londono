@@ -1,24 +1,35 @@
-let name = document.getElementById("nombreForm").value;
-let email = document.getElementById("emailForm").value;
-let about = document.getElementById("asuntoForm").value;
-let message = document.getElementById("mensajeForm").value;
-const nameForm = document.getElementById("btnForm");
+const form = document.querySelector("#form");
+const name_input = document.querySelector("#nombreForm");
+const email_input = document.querySelector("#emailForm");
+const about_input = document.querySelector("#asuntoForm");
+const message_input = document.querySelector("#mensajeForm");
+const nameF = document.querySelector("#btnForm");
 
-nameForm.addEventListener("submit", () => {
-  let name = document.getElementById("nombreForm");
-  let email = document.getElementById("emailForm");
-  let about = document.getElementById("asuntoForm");
-  let message = document.getElementById("mensajeForm");
+//========== Event after to pressing the button
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
 
-  if (name == true && email == true && about == true && message == true) {
-    alert("Formulario enviado correctamente");
-  }
+  const data = new FormData(form);
+
+  const name = data.get("nombre"); // This data These data come from the name in the inputs
+  const email = data.get("email"); // This data These data come from the name in the inputs
+  const about = data.get("Asunto"); // This data These data come from the name in the inputs
+  const message = data.get("mensaje"); // This data These data come from the name in the inputs
+
+  const object_message = {
+    Nombre: name,
+    Email: email,
+    Asunto: about,
+    Mensaje: message,
+  };
+
+  //===== Send email
+  const email_send = `mailto:nelsonlondonodev@gmail.com?subject=${encodeURIComponent(
+    about
+  )}&body=${encodeURIComponent(JSON.stringify(object_message))}`;
+
+  window.location.href = email_send;
+
+  //======Clean form
+  form.reset();
 });
-
-// let email = document.getElementById("emailForm").value;
-// let about = document.getElementById("asuntoForm").value;
-// let message = document.getElementById("mensajeForm").value;
-
-// let personForm = name.value;
-
-// console.log(personForm);
