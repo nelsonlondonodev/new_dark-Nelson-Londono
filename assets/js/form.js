@@ -24,7 +24,7 @@ form.addEventListener("submit", (e) => {
   };
 
   //===== Send email
-  const email_send = `mailto:nelsonlondonodev@gmail.com?subject=${encodeURIComponent(
+  const email_send = `mailto:contacto@nelsonlondono.es?subject=${encodeURIComponent(
     about
   )}&body=${encodeURIComponent(JSON.stringify(object_message))}`;
 
@@ -32,4 +32,8 @@ form.addEventListener("submit", (e) => {
 
   //======Clean form
   form.reset();
+
+  alert("¡Tu email fue enviado exitosamente!");
+
+  return;
 });
