@@ -17,6 +17,8 @@ Project: Resume Html
   --cv-transition-color: #ffffff;
   --cv-box-shadow: 0 0 20px 0 rgba(62, 28, 131, 0.1);
   --cv-border-box: rgb(47, 54, 65);
+  --cv-color-js: rgb(240, 219, 79);
+  --cv-color-react: rgb(136, 221, 237);
 
   /*=========== Fuentes de tipografía ============*/
   --font-primary: "Avenir", sans-serif;
@@ -460,6 +462,10 @@ h6 {
   /*text-transform: capitalize;*/
 }
 
+.cv_banner_text h1 {
+  color: var(--cv-black-color) !important;
+}
+
 h2 {
   font-size: 34px;
   font-weight: 700;
@@ -548,7 +554,7 @@ section {
 
 .cv_top_icon a {
   display: flex;
-  background-color: var(--cv-secoundry-color);
+  background-color: var(--cv-color-react);
   width: 60px;
   height: 60px;
   justify-content: center;
@@ -904,7 +910,7 @@ section {
   max-width: 660px;
   max-height: 696px;
   border-radius: 125px;
-  background-color: #18c6da;
+  background-color: var(--cv-color-react);
   content: "";
   position: absolute;
   width: 100%;
@@ -961,7 +967,7 @@ section {
 }
 
 .cv_banner_text h1 {
-  background-color: var(--cv-secoundry-color);
+  background-color: var(--cv-color-js);
   font-size: 35px;
   font-weight: 700;
   line-height: 1.1;
@@ -972,7 +978,7 @@ section {
   z-index: 99;
 }
 
-.cv_banner_text h1 span img {
+.cv_banner_text span img {
   transform-origin: 70% 70%;
   animation: wave-animation 2.5s infinite;
   max-width: 20%;
