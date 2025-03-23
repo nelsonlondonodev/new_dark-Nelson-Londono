@@ -554,7 +554,7 @@ section {
 
 .cv_top_icon a {
   display: flex;
-  background-color: var(--cv-color-react);
+  background-color: var(--cv-color-js);
   width: 60px;
   height: 60px;
   justify-content: center;
@@ -604,6 +604,7 @@ section {
   background-color: var(--cv-black-color);
 }
 .cv_top_icon a.show {
+  color: var(--cv-black-color);
   opacity: 1;
   visibility: visible;
 }
