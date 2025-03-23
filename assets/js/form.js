@@ -3,7 +3,7 @@ const name_input = document.querySelector("#nombreForm");
 const email_input = document.querySelector("#emailForm");
 const about_input = document.querySelector("#asuntoForm");
 const message_input = document.querySelector("#mensajeForm");
-const nameF = document.querySelector("#btnForm");
+// const nameF = document.querySelector("#btnForm");
 
 //========== Event after to pressing the button
 form.addEventListener("submit", (e) => {
@@ -33,7 +33,7 @@ form.addEventListener("submit", (e) => {
   //======Clean form
   form.reset();
 
-  alert("¡Tu email fue enviado exitosamente!");
+  // alert("¡Tu email fue enviado exitosamente!");
 
   return;
 });
