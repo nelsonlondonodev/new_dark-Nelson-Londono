@@ -1625,6 +1625,66 @@ section {
   justify-content: center;
 }
 
+/*********************************************************
+    Section grids
+**********************************************************/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.div1 {
+  grid-row: span 4 / span 4;
+}
+
+.div2 {
+  grid-row: span 3 / span 3;
+}
+
+.div4 {
+  grid-row: span 4 / span 4;
+}
+
+.div5 {
+  grid-row: span 3 / span 3;
+}
+
+.div6 {
+  grid-row: span 4 / span 4;
+}
+
+.div7 {
+  grid-row: span 3 / span 3;
+  grid-column-start: 1;
+  grid-row-start: 5;
+}
+
+.div8 {
+  grid-row: span 3 / span 3;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.div9 {
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 5;
+}
+
+.div10 {
+  grid-row: span 3 / span 3;
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+.div11 {
+  grid-row: span 3 / span 3;
+  grid-column-start: 5;
+  grid-row-start: 5;
+}
+
 .card {
   display: inline;
   column-gap: 20px;
